@@ -3,7 +3,7 @@ import "../styles/heading.css"
 
 const Headings = ({text}) => {
   return (
-    <div className="heading">
+    <div className="heading" fixed="top">
     <div></div>
     <p>{text}</p>
     <div></div>
